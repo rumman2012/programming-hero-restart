@@ -20,6 +20,7 @@ section
 {
     
     display: flex;
+    margin-bottom: 100px;
     
 }
 .cirle-top
@@ -66,4 +67,16 @@ section
     border-radius: 5px;
     color:#fff;
     font-size: 20px;
+}
+.cirle-right
+{
+    
+    width:100px;
+    height:100px;
+    background:orange;
+    margin-top: 100px;
+    clip-path: circle(50px at 100% 50%);
+}
+{
+
 }
