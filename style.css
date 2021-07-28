@@ -4,7 +4,66 @@
     padding: 0;
     box-sizing: border-box;
 }
-h2
+body
 {
-    color:greenyellow;
+    font-family: 'Poppins', sans-serif;
+}
+h1
+{
+    font-size: 50px;
+}
+.orange-color
+{
+    color:orange;
+}
+section
+{
+    
+    display: flex;
+    
+}
+.cirle-top
+{
+    
+    width:100px;
+    height:100px;
+    background: tomato;
+    clip-path: circle(70px at 0 0);
+}
+.half-width
+{
+    position: relative;
+    margin-top: 20px;
+    width:50%;
+    padding-left: 5%;
+}
+.half-width  h2
+{
+    letter-spacing: 1px;
+}
+.half-width  h3
+{
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+.half-width p 
+{
+    margin-top: 10px;
+    width:80%;
+    
+}
+.half-width img
+{
+    width:80%;
+}
+.btn
+{
+    display: inline-block; 
+    margin-top: 10px;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom,tomato,orange);
+    padding: 5px 16px;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
 }
